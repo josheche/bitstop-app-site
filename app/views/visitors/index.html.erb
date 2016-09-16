@@ -1,16 +1,26 @@
 <div class="wrapper">
-  <div class="parallax filter-gradient red" data-color="red">
+  <div class="parallax filter-gradient gray" data-color="gray">
     <div class="parallax-background">
       <%= image_tag "miami.jpg", class: "parallax-background-image" %>
     </div>
     <div class= "container">
       <div class="row">
-        <div class="col-md-5 hidden-xs">
+        <div class="col-md-5">
+          <div class="hidden-md-up">
+            <div class="" style="margin-top:4rem; margin-bottom:-6rem;">
+              <button class="btn btn-fill btn-neutral">
+                <i class="fa fa-apple"></i> App Store
+              </button>
+              <button class="btn btn-fill btn-neutral">
+                <i class="fa fa-google"></i> Google Play
+              </button>
+            </div>
+          </div>
           <div class="parallax-image">
-            <%= image_tag "iphone3.png", class: "phone", style: "margin-top:20px" %>
+            <%= image_tag "iphone3.png", class: "phone parallax parallax-image", style: "width:70%;float:none;margin-top:20px;" %>
           </div>
         </div>
-        <div class="col-md-6 col-md-offset-1">
+        <div class="col-md-6 col-md-offset-1 hidden-sm-down">
           <div class="description">
             <h2>Bitcoin Tools by Bitstop</h2>
             <p style="padding-top:1rem;">Bitcoin Tools is Bitstop's official app. It helps users track the Bitcoin price as well as calculate conversions from bitcoin to multiple traditional currencies.</p>
@@ -27,23 +37,25 @@
       </div>
     </div>
   </div>
-  <!-- <div class="section section-presentation">
+<div class="section section-presentation hidden-md-up">
     <div class="container">
       <div class="row">
         <div class="col-md-6">
           <div class="description">
-            <h4 class="header-text">It's beautiful</h4>
-            <p class="hidden-sm hidden-md hidden-lg">
+            <h2 class="header-text">Bitcoin Tools</h4>
+            <p class="hidden-md-up">
               Bitcoin Tools is Bitstop's official app. It helps users track the bitcoin price as well as calculate conversions from bitcoin to multiple traditional currencies.
             </p>
           </div>
         </div>
-        <div class="col-md-5 col-md-offset-1 hidden-xs">
-          <%#= image_tag "mac", style: "width: auto;" %>
+        <div class="col-md-5 col-md-offset-1">
+          <div class="parallax-image">
+            <%= image_tag "iphone3.png", style: "width: 8rem;position: relative;top: 0;" %>
+          </div>
         </div>
       </div>
     </div>
-  </div> -->
+  </div>
   <div class="section section-features">
     <div class="container">
       <h4 class="header-text text-center">Features</h4>
@@ -82,7 +94,7 @@
   </div>
 
   <div class="section section-no-padding">
-    <div class="parallax filter-gradient red" data-color="red">
+    <div class="parallax filter-gradient gray" data-color="gray">
       <div class="parallax-background">
         <%= image_tag "iphone-use.jpg", class: "parallax-background-image" %>
       </div>
