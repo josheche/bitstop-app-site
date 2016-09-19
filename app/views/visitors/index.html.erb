@@ -1,13 +1,15 @@
 <div class="wrapper">
-  <div class="parallax filter-gradient gray" data-color="gray">
-    <div class="parallax-background">
-      <%= image_tag "miami.jpg", class: "parallax-background-image" %>
-    </div>
+ <div class="parallax filter-gradient red" data-color="red">
+   <div class="container" style="z-index:9999">
+       <%= link_to bitstop_path, class: "center-block", target: "_blank" do %>
+         <%= image_tag "powered_by_bitstop-w.svg", style: "width:10rem;margin-top: 0.5rem;" %>
+       <% end %>
+   </div>
     <div class= "container">
       <div class="row">
         <div class="col-md-5">
           <div class="hidden-md-up">
-            <div class="" style="margin-top:4rem; margin-bottom:-6rem;">
+            <div class="" style="margin-top:6rem; margin-bottom:-8rem;">
               <button class="btn btn-fill btn-neutral">
                 <i class="fa fa-apple"></i> App Store
               </button>
@@ -94,10 +96,10 @@
   </div>
 
   <div class="section section-no-padding">
-    <div class="parallax filter-gradient gray" data-color="gray">
-      <div class="parallax-background">
-        <%= image_tag "iphone-use.jpg", class: "parallax-background-image" %>
-      </div>
+    <div class="parallax filter-gradient red" data-color="red">
+      <!-- <div class="parallax-background">
+        <%#= image_tag "iphone-use.jpg", class: "parallax-background-image" %>
+      </div> -->
       <div class="info">
         <h1>Download Bitcoin Tools today!</h1>
         <p>Now available in the Apple App Store and Google Play Store.</p>
