@@ -19,25 +19,6 @@
             }
         });
 
-        function SelectColor(btn) {
-            oldColor = $('.filter-gradient').attr('data-color');
-            newColor = $(btn).attr('data-color');
-
-            oldButton = $('a[id^="Demo"]').attr('data-button');
-            newButton = $(btn).attr('data-button');
-
-            $('.filter-gradient').removeClass(oldColor).addClass(newColor).attr('data-color', newColor);
-
-            $('a[id^="Demo"]').removeClass("btn-" + oldButton).addClass("btn-" + newButton).attr('data-button', newButton);
-
-            $('.carousel-indicators').removeClass("carousel-indicators-" + oldColor).addClass("carousel-indicators-" + newColor);
-
-            $('.card').removeClass("card-" + oldColor).addClass("card-" + newColor);
-
-            $('.selector').removeClass('active');
-            $(btn).addClass('active');
-        }
-
         $('.switch').each(function() {
             var selector = $(this).parent('li')
             $(this).click(function() {

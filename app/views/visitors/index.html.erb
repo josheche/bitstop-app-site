@@ -1,5 +1,5 @@
 <div class="wrapper">
- <div class="parallax filter-gradient red" data-color="red">
+ <div class="parallax filter-gradient bitstop-red" data-color="red">
    <div class="container" style="z-index:9999">
        <%= link_to bitstop_path, class: "center-block", target: "_blank" do %>
          <%= image_tag "powered_by_bitstop-w.svg", style: "width:10rem;margin-top: 0.5rem;" %>
@@ -11,7 +11,7 @@
           <div class="hidden-md-up">
             <div class="" style="margin-top:6rem; margin-bottom:-8rem;">
               <button class="btn btn-fill btn-neutral">
-                <i class="fa fa-apple"></i> App Store
+                <i class="fa fa-apple gray"></i> App Store
               </button>
               <button class="btn btn-fill btn-neutral">
                 <i class="fa fa-google"></i> Google Play
@@ -67,7 +67,7 @@
             <div class="icon">
             </div>
             <div class="text">
-              <i class="fa fa-bitcoin fa-3x" style="margin-top:2rem"></i>
+              <%= image_tag "bitcoin-logo.svg", style: "width: 5rem; margin-top:2rem;" %>
               <h4>Bitcoin Price Ticker</h4>
               <p>Never lose track of the price. Track the bitcoin price across multiple global exchanges.</p>
             </div>
@@ -77,7 +77,7 @@
           <div class="card ">
             <div class="icon">
             </div>
-            <i class="fa fa-line-chart fa-3x" style="margin-top:2rem"></i>
+            <%= image_tag "graph.svg", style: "width: 5rem; margin-top:2rem;" %>
             <h4>Bitcoin Historical Price Graph</h4>
             <p>View all-time historical Bitcoin price data and stay up to date with gains & losses.</p>
           </div>
@@ -86,7 +86,7 @@
           <div class="card ">
             <div class="icon">
             </div>
-            <i class="fa fa-calculator fa-3x" style="margin-top:2rem"></i>
+            <%= image_tag "calculator.svg", style: "width: 5rem; margin-top:2rem;" %>
             <h4>Bitcoin Calculator</h4>
             <p>Convert bitcoin to various currencies: USD, EUR, CAD, GPB, BRL, BV, MXN.</p>
           </div>
@@ -96,7 +96,7 @@
   </div>
 
   <div class="section section-no-padding">
-    <div class="parallax filter-gradient red" data-color="red">
+    <div class="parallax filter-gradient bitstop-red" data-color="red">
       <!-- <div class="parallax-background">
         <%#= image_tag "iphone-use.jpg", class: "parallax-background-image" %>
       </div> -->
