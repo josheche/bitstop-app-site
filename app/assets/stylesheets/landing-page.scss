@@ -4,6 +4,11 @@
   text-align: center;
 }
 
+.iphone-landing-wrapper {
+  width: 32rem;
+  margin-top: 8rem;
+}
+
 
 /*           Font Smoothing      */
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p, .navbar, .brand, .btn-simple, a, .td-name, td {
@@ -1528,10 +1533,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#EE494A', end
   .footer nav.pull-left, .footer:not(.footer-big) nav > ul li, .pull-right {
     float: none !important;
   }
+  .iphone-landing {
+    margin-top: 6.5rem;
+    max-width: 83%;
+    position: relative;
 
-}
-
-@media (min-width: 768px){
-
+  }
+  .iphone-landing-wrapper {
+    width: auto;
+    margin-top: 0;
+  }
 
 }
