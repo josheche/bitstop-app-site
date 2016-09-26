@@ -959,7 +959,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#EE494A', end
    }
 
    .landing-page .section-no-padding .parallax .info{
-    position: absolute;
+    position: relative;
     left: 50%;
     -webkit-transform: translateX(-50%);
     -moz-transform:    translateX(-50%);
@@ -967,7 +967,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#EE494A', end
     -o-transform:      translateX(-50%);
     transform:         translateX(-50%);
     z-index: 20;
-    top: 150px;
+    padding-top: 4rem;
 
   }
   .landing-page .section-no-padding .parallax .info h1{

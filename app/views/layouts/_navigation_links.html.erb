@@ -1,2 +1,21 @@
 <%# add navigation links to this file %>
-<li class='nav-item'><%= link_to 'About', page_path('about'), class: 'nav-link' %></li>
+<li class='nav-item'>
+  <a href="http://bitstop.co/about" class='nav-link' target="_blank">
+    About
+  </a>
+</li>
+<li class='nav-item'>
+  <a href="mailto:doug@bitstop.co" class='nav-link' target="_blank">
+    Contact
+  </a>
+</li>
+<li class='nav-item'>
+  <a href="http://blog.bitstop.co" class='nav-link' target="_blank">
+    Blog
+  </a>
+</li>
+<li class="nav-item">
+  <%= link_to bitstop_path, class: 'navbar-brand hidden-sm-up', style: "float:none;",target: "_blank" do %>
+    <%= image_tag "bitstop.png", style: "width:8rem;" %>
+  <% end %>
+</li>
