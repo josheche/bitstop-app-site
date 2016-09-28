@@ -1,3 +1,8 @@
+<style>
+.navbar-toggle {
+    z-index:3;
+}
+</style>
 <%# navigation styled for Bootstrap 4.0 %>
 <div class="container">
   <nav class="navbar navbar-fixed-top navbar-light bg-faded">
@@ -8,7 +13,10 @@
         </button>
       </li>
     </ul>
-    <div class="collapse navbar-toggleable-xs" id="exCollapsingNavbar2">
+    <a class="navbar-brand hidden-sm-up" style="position: absolute;width: 100%;left: 0;top: 0;text-align: center;margin: auto;z-index:-2;margin-top:-6px;">
+      <%= image_tag "bitstop.png", style: "width:8rem" %>
+    </a>
+    <div class="collapse navbar-toggleable-xs" style="z-index:9999;" id="exCollapsingNavbar2">
       <%= link_to bitstop_path, class: 'navbar-brand hidden-xs-down', target: "_blank" do %>
         <%= image_tag "bitstop.png", style: "width:8rem;" %>
       <% end %>
