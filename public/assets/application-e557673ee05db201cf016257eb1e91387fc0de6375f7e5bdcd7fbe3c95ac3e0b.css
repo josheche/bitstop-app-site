@@ -8524,22 +8524,23 @@ a:focus, a:active {
 .landing-page .parallax .description {
   margin-top: 200px;
   color: white;
-  padding: 5px;
+  padding: 0px;
+  margin-left: 3rem;
 }
 
-/* line 881, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+/* line 882, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
 .landing-page .section-presentation .description {
   padding: 50px 5px 0;
 }
 
-/* line 885, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+/* line 886, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
 .landing-page .parallax .description h2 {
   text-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
   font-weight: 200;
   font-size: 40px;
 }
 
-/* line 891, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+/* line 892, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
 .landing-page .parallax .description h5 {
   line-height: 1.4;
   font-weight: 400;
@@ -8547,38 +8548,38 @@ a:focus, a:active {
   font-size: 18px;
 }
 
-/* line 898, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+/* line 899, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
 .landing-page .parallax .buttons {
   width: 100%;
   display: inline-block;
   margin-top: 40px;
 }
 
-/* line 904, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+/* line 905, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
 .landing-page .parallax .buttons h4 {
   color: white;
   display: inline-block;
 }
 
-/* line 909, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+/* line 910, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
 .landing-page .parallax .buttons h4 ~ .btn {
   margin-top: -10px;
   margin-left: 20px;
 }
 
-/* line 914, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+/* line 915, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
 .landing-page .parallax .buttons .btn-simple {
   font-size: 30px;
 }
 
-/* line 920, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+/* line 921, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
 .landing-page .logos {
   width: 100%;
   margin: 0 auto;
   text-align: center;
 }
 
-/* line 925, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+/* line 926, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
 .landing-page .logos ul {
   display: block;
   width: 100%;
@@ -8586,28 +8587,28 @@ a:focus, a:active {
   padding-top: 48px;
 }
 
-/* line 931, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+/* line 932, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
 .landing-page .logos li {
   display: inline-block;
   margin: 0 17px;
 }
 
-/* line 936, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+/* line 937, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
 .landing-page .section-presentation {
   overflow: hidden;
   width: 100%;
-  min-height: 30rem;
+  min-height: 48rem;
   margin-top: 30px;
 }
 
-/* line 943, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+/* line 944, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
 .landing-page .section-presentation img {
   position: absolute;
   top: 8rem;
   left: 0;
 }
 
-/* line 950, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+/* line 951, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
 .landing-page .section-presentation .iphone-presentation {
   position: relative;
   margin: 0 auto;
@@ -8615,7 +8616,7 @@ a:focus, a:active {
   height: auto;
 }
 
-/* line 957, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+/* line 958, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
 .landing-page .section-no-padding .parallax {
   color: white;
   position: relative;
@@ -8625,7 +8626,7 @@ a:focus, a:active {
   text-align: center;
 }
 
-/* line 966, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+/* line 967, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
 .landing-page .section-no-padding .parallax .info {
   position: relative;
   left: 50%;
@@ -8635,65 +8636,65 @@ a:focus, a:active {
   padding-top: 4rem;
 }
 
-/* line 978, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+/* line 979, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
 .landing-page .section-no-padding .parallax .info h1 {
   font-size: 40px;
   font-weight: 300;
 }
 
-/* line 983, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+/* line 984, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
 .landing-page .section-no-padding .parallax .info a {
   position: relative;
   z-index: 10;
 }
 
-/* line 989, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+/* line 990, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
 .landing-page .section-no-padding .parallax .info .btn-lg {
   margin-top: 75px;
   padding: 14px 80px;
 }
 
-/* line 994, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+/* line 995, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
 .landing-page .section-demo {
   margin-top: 50px;
 }
 
-/* line 998, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+/* line 999, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
 .landing-page .section-demo a {
   margin-top: 20px;
 }
 
-/* line 1002, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+/* line 1003, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
 .landing-page .section-demo .demo-image {
   position: relative;
   width: 100%;
   display: block;
 }
 
-/* line 1008, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+/* line 1009, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
 .landing-page .section-demo .demo-image img {
   width: 100%;
   height: auto;
   border-radius: 10px;
 }
 
-/* line 1014, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+/* line 1015, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
 .landing-page .section-demo .row:first-child {
   margin-bottom: 100px;
 }
 
-/* line 1018, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+/* line 1019, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
 .landing-page .section-demo .carousel-inner {
   border-radius: 10px;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.23);
 }
 
-/* line 1023, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+/* line 1024, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
 .landing-page .section-features {
-  margin: 50px 0;
+  margin: 25px 0;
 }
 
-/* line 1027, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+/* line 1028, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
 .landing-page .section-features .card {
   width: 100%;
   height: 16rem;
@@ -8703,7 +8704,7 @@ a:focus, a:active {
   text-align: center;
 }
 
-/* line 1035, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+/* line 1036, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
 .landing-page .section-features .card .icon i {
   font-size: 63px;
   color: #9a9a9a;
@@ -8716,73 +8717,73 @@ a:focus, a:active {
   margin-top: 20px;
 }
 
-/* line 1047, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+/* line 1048, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
 .landing-page .section-features .card.card-blue {
   border-color: #CCE7F5;
 }
 
-/* line 1050, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+/* line 1051, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
 .landing-page .section-features .card.card-blue .icon i {
   color: #00bbff;
 }
 
-/* line 1053, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+/* line 1054, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
 .landing-page .section-features .card.card-green {
   border-color: #BDF8C0;
 }
 
-/* line 1056, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+/* line 1057, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
 .landing-page .section-features .card.card-green .icon i {
   color: #3ABE41;
 }
 
-/* line 1059, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+/* line 1060, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
 .landing-page .section-features .card.card-orange {
   border-color: #FAD9CD;
 }
 
-/* line 1062, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+/* line 1063, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
 .landing-page .section-features .card.card-orange .icon i {
   color: #ff967f;
 }
 
-/* line 1065, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+/* line 1066, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
 .landing-page .section-features .card.card-red {
   border-color: #FFBFC3;
 }
 
-/* line 1068, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+/* line 1069, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
 .landing-page .section-features .card.card-red .icon i {
   color: #E01724;
 }
 
-/* line 1071, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+/* line 1072, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
 .landing-page .section-features .card h4 {
   font-weight: 300;
   font-size: 18px;
   margin: 30px 0 -15px;
 }
 
-/* line 1077, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+/* line 1078, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
 .landing-page .section-features .card p {
   font-size: 16px;
   line-height: 22px;
-  color: #777;
+  color: #333;
 }
 
-/* line 1084, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+/* line 1085, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
 .landing-page .section-testimonial {
   position: relative;
   width: 100%;
   min-height: 450px;
 }
 
-/* line 1089, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+/* line 1090, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
 .landing-page .section-testimonial .carousel {
   margin-top: 50px;
 }
 
-/* line 1093, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+/* line 1094, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
 .landing-page .section-testimonial .carousel-inner .item .mask {
   width: 100px;
   height: 100px;
@@ -8793,45 +8794,45 @@ a:focus, a:active {
   margin: 0 auto;
 }
 
-/* line 1103, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+/* line 1104, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
 .landing-page .section-testimonial .carousel-inner .item img {
   width: 100%;
   height: auto;
   display: block;
 }
 
-/* line 1109, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+/* line 1110, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
 .landing-page .section-testimonial .carousel-inner .item .carousel-testimonial-caption {
   text-align: center;
   max-width: 700px;
   margin: 0 auto;
 }
 
-/* line 1115, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+/* line 1116, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
 .landing-page .section-testimonial .carousel-inner h3 {
   font-weight: 300;
   font-size: 30px;
   line-height: 46px;
 }
 
-/* line 1121, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+/* line 1122, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
 .landing-page .section-testimonial .carousel-inner p {
   margin-top: 10px;
   color: #9a9a9a;
 }
 
-/* line 1126, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+/* line 1127, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
 .landing-page .section-testimonial .carousel-control {
   color: #333;
   text-shadow: none;
 }
 
-/* line 1131, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+/* line 1132, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
 .landing-page .carousel.fade {
   opacity: 1;
 }
 
-/* line 1134, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+/* line 1135, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
 .landing-page .carousel.fade .item {
   -webkit-transition: opacity ease-in-out .7s;
   transition: opacity ease-in-out .7s;
@@ -8844,13 +8845,13 @@ a:focus, a:active {
   z-index: 1;
 }
 
-/* line 1147, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+/* line 1148, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
 .landing-page .carousel.fade .item:first-child {
   top: auto;
   position: relative;
 }
 
-/* line 1151, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+/* line 1152, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
 .landing-page .carousel.fade .item.active {
   opacity: 1;
   -webkit-transition: opacity ease-in-out .7s;
@@ -8858,7 +8859,7 @@ a:focus, a:active {
   z-index: 2;
 }
 
-/* line 1160, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+/* line 1161, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
 .fixed-plugin {
   position: fixed;
   top: 150px;
@@ -8870,7 +8871,7 @@ a:focus, a:active {
   text-align: center;
 }
 
-/* line 1170, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+/* line 1171, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
 .fixed-plugin .fa-cog {
   color: #FFFFFF;
   /*     background-color: rgba(0,0,0,.2); */
@@ -8878,41 +8879,41 @@ a:focus, a:active {
   border-radius: 0 0 6px 6px;
 }
 
-/* line 1176, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+/* line 1177, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
 .fixed-plugin .dropdown-menu {
   right: 80px;
   left: auto;
   width: 440px;
 }
 
-/* line 1181, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+/* line 1182, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
 .fixed-plugin .dropdown-menu:after, .fixed-plugin .dropdown-menu:before {
   right: 10px;
   margin-left: auto;
   left: auto;
 }
 
-/* line 1186, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+/* line 1187, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
 .fixed-plugin .fa-circle-thin {
   color: #FFFFFF;
 }
 
-/* line 1189, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+/* line 1190, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
 .fixed-plugin .active .fa-circle-thin {
   color: #00bbff;
 }
 
-/* line 1193, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+/* line 1194, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
 .footer-dropdown {
   top: -120px !important;
 }
 
-/* line 1197, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+/* line 1198, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
 .footer-dropdown:before, .footer-dropdown:after {
   top: 300px !important;
 }
 
-/* line 1201, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+/* line 1202, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
 .fixed-plugin img {
   border-radius: 6px;
   width: 200px;
@@ -8920,24 +8921,24 @@ a:focus, a:active {
   float: left;
 }
 
-/* line 1208, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+/* line 1209, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
 .fixed-plugin .active a,
 .fixed-plugin a:hover {
   border-color: #00bbff;
 }
 
-/* line 1213, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+/* line 1214, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
 .fixed-plugin .btn {
   margin: 10px 15px 0;
   color: #FFFFFF;
 }
 
-/* line 1217, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+/* line 1218, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
 .fixed-plugin .btn:hover {
   color: #FFFFFF;
 }
 
-/* line 1220, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+/* line 1221, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
 .fixed-plugin .badge {
   border: 3px solid #FFFFFF;
   border-radius: 50%;
@@ -8949,57 +8950,57 @@ a:focus, a:active {
   width: 23px;
 }
 
-/* line 1230, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+/* line 1231, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
 .fixed-plugin .badge.active, .fixed-plugin .badge:hover {
   border-color: #00bbff;
 }
 
-/* line 1233, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+/* line 1234, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
 .fixed-plugin .badge-white {
   background-color: #eeeeee;
 }
 
-/* line 1236, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+/* line 1237, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
 .fixed-plugin .badge-gray {
   background-color: #999999;
 }
 
-/* line 1239, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+/* line 1240, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
 .fixed-plugin .badge-black {
   background-color: #5d5d5d;
 }
 
-/* line 1242, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+/* line 1243, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
 .fixed-plugin .badge-orange {
   background-color: #FFA17F;
 }
 
-/* line 1245, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+/* line 1246, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
 .fixed-plugin .badge-green {
   background-color: #3ABE41;
 }
 
-/* line 1248, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+/* line 1249, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
 .fixed-plugin .badge-blue {
   background-color: #2ca8ff;
 }
 
-/* line 1251, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+/* line 1252, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
 .fixed-plugin .badge-red {
   background-color: #E01724;
 }
 
-/* line 1254, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+/* line 1255, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
 .fa {
   width: auto;
 }
 
-/* line 1258, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+/* line 1259, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
 .fixed-plugin h5 {
   font-size: 1em;
 }
 
-/* line 1261, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+/* line 1262, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
 .fixed-plugin .dropdown-menu li {
   display: block;
   float: left;
@@ -9007,7 +9008,7 @@ a:focus, a:active {
   padding: 5px;
 }
 
-/* line 1268, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+/* line 1269, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
 .fixed-plugin li.adjustments-line,
 .fixed-plugin li.header-title {
   width: 100%;
@@ -9015,7 +9016,7 @@ a:focus, a:active {
   min-height: inherit;
 }
 
-/* line 1275, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+/* line 1276, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
 .fixed-plugin li.header-title {
   height: 30px;
   line-height: 40px;
@@ -9025,7 +9026,7 @@ a:focus, a:active {
   padding: 0 15px;
 }
 
-/* line 1284, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+/* line 1285, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
 .fixed-plugin .adjustments-line p {
   float: left;
   display: inline-block;
@@ -9033,12 +9034,12 @@ a:focus, a:active {
   font-size: 1em;
 }
 
-/* line 1290, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+/* line 1291, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
 .fixed-plugin .adjustments-line .switch {
   float: right;
 }
 
-/* line 1293, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+/* line 1294, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
 .fixed-plugin .dropdown-menu > li.adjustments-line > a {
   padding-right: 0;
   padding-left: 0;
@@ -9047,14 +9048,14 @@ a:focus, a:active {
   margin-right: 10px;
 }
 
-/* line 1300, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+/* line 1301, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
 .fixed-plugin .dropdown-menu > li:not(.adjustments-line) > a p {
   margin-top: 35px;
   font-size: 14px;
   margin-left: 14px;
 }
 
-/* line 1305, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+/* line 1306, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
 .fixed-plugin .dropdown-menu > li > a:not(.switch-trigger) {
   font-size: 16px;
   text-align: center;
@@ -9066,48 +9067,48 @@ a:focus, a:active {
   cursor: pointer;
 }
 
-/* line 1316, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+/* line 1317, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
 .fixed-plugin .dropdown-menu > li > a.switch-trigger:hover,
 .fixed-plugin .dropdown-menu > li > a.switch-trigger:focus {
   background-color: transparent;
 }
 
-/* line 1320, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+/* line 1321, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
 .fixed-plugin .dropdown-menu > .active > a:not(.switch-trigger),
 .fixed-plugin .dropdown-menu > .active > a:not(.switch-trigger) {
   border-color: #00bbff;
   background-color: #FFFFFF;
 }
 
-/* line 1326, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+/* line 1327, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
 .fixed-plugin .dropdown-menu > li > a img {
   margin-top: auto;
   border: 3px solid transparent;
 }
 
-/* line 1331, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+/* line 1332, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
 .fixed-plugin .dropdown-menu > li.active > a img {
   border-color: #20c3ff;
 }
 
-/* line 1335, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+/* line 1336, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
 .fixed-plugin .dropdown-menu > li > a:hover img {
   border-color: #2ca8ff;
 }
 
-/* line 1339, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+/* line 1340, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
 .fixed-plugin .dropdown-menu > li.active > a p,
 .fixed-plugin .dropdown-menu > li > a p,
 .fixed-plugin .dropdown-menu > li.active > a:focus p {
   color: #777777;
 }
 
-/* line 1345, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+/* line 1346, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
 .fixed-plugin .dropdown-menu > li > a:hover p {
   color: #333333;
 }
 
-/* line 1348, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+/* line 1349, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
 .fixed-plugin .dropdown-menu:before,
 .fixed-plugin .dropdown-menu:after {
   content: "";
@@ -9120,7 +9121,7 @@ a:focus, a:active {
   -moz-transform: translateY(-50%);
 }
 
-/* line 1359, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+/* line 1360, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
 .fixed-plugin .dropdown-menu:before {
   border-bottom: 10px solid transparent;
   border-left: 10px solid rgba(0, 0, 0, 0.2);
@@ -9128,7 +9129,7 @@ a:focus, a:active {
   right: -10px;
 }
 
-/* line 1366, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+/* line 1367, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
 .fixed-plugin .dropdown-menu:after {
   border-bottom: 10px solid transparent;
   border-left: 10px solid #FFFFFF;
@@ -9137,24 +9138,24 @@ a:focus, a:active {
 }
 
 @media (max-width: 768px) {
-  /* line 1374, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+  /* line 1375, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
   .fixed-plugin {
     top: 80px;
     right: 0px;
   }
 
-  /* line 1378, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+  /* line 1379, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
   .main .container {
     margin-bottom: 50px;
   }
 
-  /* line 1381, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+  /* line 1382, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
   #video_background {
     display: none;
   }
 }
 @media (min-width: 768px) {
-  /* line 1388, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+  /* line 1389, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
   .navbar-form {
     margin-top: 21px;
     margin-bottom: 21px;
@@ -9162,7 +9163,7 @@ a:focus, a:active {
     padding-right: 5px;
   }
 
-  /* line 1394, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+  /* line 1395, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
   .navbar-nav > li > .dropdown-menu, .dropdown-menu {
     display: block;
     margin: 0;
@@ -9186,7 +9187,7 @@ a:focus, a:active {
     transition: all 300ms cubic-bezier(0.34, 1.61, 0.7, 1);
   }
 
-  /* line 1425, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+  /* line 1426, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
   .navbar-nav > li.open > .dropdown-menu, .open .dropdown-menu {
     -webkit-transform-origin: 29px -50px;
     transform-origin: 29px -50px;
@@ -9202,12 +9203,12 @@ a:focus, a:active {
     padding: 5px 10px 15px;
   }
 
-  /* line 1445, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+  /* line 1446, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
   .dropdown .dropdown-menu {
     top: -30px;
   }
 
-  /* line 1448, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+  /* line 1449, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
   .fixed-plugin .dropdown-menu:before,
   .fixed-plugin .dropdown-menu:after {
     content: "";
@@ -9220,7 +9221,7 @@ a:focus, a:active {
     -moz-transform: translateY(-50%);
   }
 
-  /* line 1459, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+  /* line 1460, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
   .fixed-plugin .dropdown-menu:before {
     border-bottom: 16px solid transparent;
     border-left: 16px solid rgba(0, 0, 0, 0.2);
@@ -9228,7 +9229,7 @@ a:focus, a:active {
     right: -16px;
   }
 
-  /* line 1466, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+  /* line 1467, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
   .fixed-plugin .dropdown-menu:after {
     border-bottom: 16px solid transparent;
     border-left: 16px solid #FFFFFF;
@@ -9237,53 +9238,53 @@ a:focus, a:active {
   }
 }
 @media (max-width: 767px) {
-  /* line 1475, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+  /* line 1476, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
   .fixed-plugin {
     position: absolute;
   }
 
-  /* line 1478, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+  /* line 1479, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
   .fixed-plugin .dropdown-menu {
     top: 0;
     width: 220px;
   }
 
-  /* line 1482, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+  /* line 1483, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
   .nav > li {
     text-align: center;
   }
 
-  /* line 1485, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+  /* line 1486, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
   .navbar-toggle .icon-bar {
     background: white;
   }
 
-  /* line 1488, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+  /* line 1489, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
   .navbar-toggle {
     padding: 16px 10px;
   }
 
-  /* line 1491, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+  /* line 1492, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
   .logo-container .logo {
     margin-left: 20px;
   }
 
-  /* line 1494, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+  /* line 1495, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
   .landing-page .wrapper {
     text-align: center;
   }
 
-  /* line 1497, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+  /* line 1498, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
   .landing-page .navbar-top {
     background: rgba(0, 0, 0, 0.75);
   }
 
-  /* line 1500, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+  /* line 1501, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
   .landing-page .parallax {
     height: 550px;
   }
 
-  /* line 1503, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+  /* line 1504, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
   .landing-page .parallax .parallax-background img {
     width: auto;
     height: 100%;
@@ -9293,60 +9294,60 @@ a:focus, a:active {
        object-position: center right;
   }
 
-  /* line 1509, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+  /* line 1510, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
   .landing-page .parallax .description {
     margin-top: 65px;
   }
 
-  /* line 1511, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+  /* line 1512, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
   .landing-page .parallax .buttons {
     margin: 20px 0;
   }
 
-  /* line 1514, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+  /* line 1515, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
   .landing-page .logos li {
     display: block;
     margin-top: 10px;
   }
 
-  /* line 1518, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+  /* line 1519, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
   .landing-page .logos ul {
     padding-top: 20px;
   }
 
-  /* line 1521, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+  /* line 1522, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
   .landing-page .section-presentation {
     margin: 0;
   }
 
-  /* line 1524, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+  /* line 1525, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
   .landing-page .section-presentation {
     height: auto;
   }
 
-  /* line 1527, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+  /* line 1528, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
   .landing-page .carousel-indicators {
     bottom: -30px;
   }
 
-  /* line 1530, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+  /* line 1531, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
   .landing-page .carousel {
     min-height: 210px;
   }
 
-  /* line 1533, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+  /* line 1534, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
   .footer nav.pull-left, .footer:not(.footer-big) nav > ul li, .pull-right {
     float: none !important;
   }
 
-  /* line 1536, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+  /* line 1537, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
   .iphone-landing {
     margin-top: 6.5rem;
     max-width: 83%;
     position: relative;
   }
 
-  /* line 1542, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
+  /* line 1543, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
   .iphone-landing-wrapper {
     width: auto;
     margin-top: 0;
