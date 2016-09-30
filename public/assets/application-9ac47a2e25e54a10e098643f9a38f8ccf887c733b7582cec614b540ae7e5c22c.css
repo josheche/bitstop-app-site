@@ -8523,7 +8523,7 @@ a:focus, a:active {
 /* line 875, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
 .landing-page .parallax .description {
   margin-top: 200px;
-  color: white;
+  color: #eeeeee;
   padding: 0px;
   margin-left: 3rem;
 }
@@ -8597,7 +8597,7 @@ a:focus, a:active {
 .landing-page .section-presentation {
   overflow: hidden;
   width: 100%;
-  min-height: 30rem;
+  min-height: 48rem;
   margin-top: 30px;
 }
 
@@ -8691,7 +8691,7 @@ a:focus, a:active {
 
 /* line 1024, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
 .landing-page .section-features {
-  margin: 50px 0;
+  margin: 25px 0;
 }
 
 /* line 1028, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
@@ -8768,7 +8768,7 @@ a:focus, a:active {
 .landing-page .section-features .card p {
   font-size: 16px;
   line-height: 22px;
-  color: #777;
+  color: #333;
 }
 
 /* line 1085, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
