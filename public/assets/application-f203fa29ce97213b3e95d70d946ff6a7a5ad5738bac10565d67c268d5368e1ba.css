@@ -8523,7 +8523,7 @@ a:focus, a:active {
 /* line 875, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
 .landing-page .parallax .description {
   margin-top: 200px;
-  color: white;
+  color: #ededed;
   padding: 0px;
   margin-left: 3rem;
 }
@@ -8597,7 +8597,7 @@ a:focus, a:active {
 .landing-page .section-presentation {
   overflow: hidden;
   width: 100%;
-  min-height: 30rem;
+  min-height: 48rem;
   margin-top: 30px;
 }
 
@@ -8691,7 +8691,7 @@ a:focus, a:active {
 
 /* line 1024, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
 .landing-page .section-features {
-  margin: 50px 0;
+  margin: 25px 0;
 }
 
 /* line 1028, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/landing-page.scss */
@@ -10383,6 +10383,110 @@ a:focus, a:active {
 /* line 630, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/pe-icon-7-stroke.scss */
 .pe-7s-airplay:before {
   content: "\e67f";
+}
+/* line 1, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/smartbanner.scss */
+.smartbanner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  width: 100%;
+  height: 84px;
+  background: #f3f3f3;
+  z-index: 9999;
+}
+
+/* line 11, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/smartbanner.scss */
+.smartbanner__exit {
+  position: absolute;
+  top: calc(50% - 6px);
+  left: 9px;
+  display: block;
+  margin: 0;
+  width: 12px;
+  height: 12px;
+  border: 0;
+  text-align: center;
+}
+
+/* line 22, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/smartbanner.scss */
+.smartbanner__exit::before, .smartbanner__exit::after {
+  position: absolute;
+  width: 1px;
+  height: 12px;
+  background: #767676;
+  content: ' ';
+}
+
+/* line 29, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/smartbanner.scss */
+.smartbanner__exit::before {
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+/* line 33, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/smartbanner.scss */
+.smartbanner__exit::after {
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+/* line 37, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/smartbanner.scss */
+.smartbanner__icon {
+  position: absolute;
+  top: 10px;
+  left: 30px;
+  width: 64px;
+  height: 64px;
+  border-radius: 15px;
+  background-size: 64px 64px;
+}
+
+/* line 46, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/smartbanner.scss */
+.smartbanner__info {
+  position: absolute;
+  top: 10px;
+  left: 104px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow-y: hidden;
+  width: 60%;
+  height: 64px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+/* line 60, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/smartbanner.scss */
+.smartbanner__info__title {
+  font-size: 14px;
+}
+
+/* line 63, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/smartbanner.scss */
+.smartbanner__info__author, .smartbanner__info__price {
+  font-size: 12px;
+}
+
+/* line 66, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/smartbanner.scss */
+.smartbanner__button {
+  position: absolute;
+  top: 32px;
+  right: 10px;
+  z-index: 1;
+  display: block;
+  padding: 0 10px;
+  min-width: 10%;
+  border-radius: 5px;
+  background: #f3f3f3;
+  color: #1474fc;
+  font-size: 18px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* line 81, /Users/josheche/work/bitstop-app-site/app/assets/stylesheets/smartbanner.scss */
+.smartbanner__button__label {
+  text-align: center;
 }
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
