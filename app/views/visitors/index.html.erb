@@ -1,20 +1,15 @@
 <%= render :partial => "layouts/navigation" %>
 <div class="wrapper">
  <div class="parallax filter-gradient bitstop-red" data-color="red">
-   <div class="container" style="z-index:9999">
-       <%#= link_to bitstop_path, class: "center-block", target: "_blank" do %>
-         <%#= image_tag "powered_by_bitstop-w.svg", style: "width:10rem;margin-top: 0.5rem;" %>
-       <%# end %>
-   </div>
     <div class= "container">
       <div class="row">
         <div class="col-md-5">
           <div class="hidden-md-up">
             <div class="" style="margin-top:6rem; margin-bottom:-8rem;">
-              <%= link_to bitstop_path, class: 'm-a-1', style: "", target: "_blank" do %>
+              <%= link_to apple_path, class: 'm-a-1', style: "", target: "_blank" do %>
                 <%= image_tag "applestore.svg", style: "width:12rem;" %>
               <% end %>
-              <%= link_to bitstop_path, class: 'm-a-1', style: "", target: "_blank" do %>
+              <%= link_to android_path, class: 'm-a-1', style: "", target: "_blank" do %>
                 <%= image_tag "googlestore.svg", style: "width:12rem;" %>
               <% end %>
               <!-- <button class="btn btn-fill btn-neutral">
@@ -35,10 +30,10 @@
             <p>Bitcoin Tools is Bitstop's official app. We know bitcoin can be complicated at first, so we created tools to help make bitcoin simple. Bitcoin Tools enables users to track the Bitcoin price and quickly calculate conversions from bitcoin to multiple traditional currencies.</p>
           </div>
           <div class="">
-            <%= link_to bitstop_path, class: "", style: "", target: "_blank" do %>
+            <%= link_to apple_path, class: "", style: "", target: "_blank" do %>
               <%= image_tag "applestore.svg", style: "width:12rem;" %>
             <% end %>
-            <%= link_to bitstop_path, class: "m-a-1", style: "", target: "_blank" do %>
+            <%= link_to android_path, class: "m-a-1", style: "", target: "_blank" do %>
               <%= image_tag "googlestore.svg", style: "width:12rem;" %>
             <% end %>
             <!-- <button class="btn btn-fill btn-neutral">
@@ -118,13 +113,13 @@
       <div class="info">
         <h1>Download Bitcoin Tools today!</h1>
         <p>Now available free in the Apple App Store and Google Play Store.</p>
-        <%= link_to bitstop_path, class: 'm-a-1', style: "", target: "_blank" do %>
+        <%= link_to apple_path, class: 'm-a-1', style: "", target: "_blank" do %>
           <%= image_tag "applestore.svg", style: "width:12rem;" %>
         <% end %>
         <%= link_to bitstop_path, class: 'm-a-1', target: "_blank" do %>
           <%= image_tag "powered_by_bitstop-w.svg", style: 'width:12rem;' %>
         <% end %>
-        <%= link_to bitstop_path, class: 'm-a-1', style: "", target: "_blank" do %>
+        <%= link_to android_path, class: 'm-a-1', style: "", target: "_blank" do %>
           <%= image_tag "googlestore.svg", style: "width:12rem;" %>
         <% end %>
         <!-- <a href="<%= root_path %>" class="btn btn-neutral btn-lg btn-fill">DOWNLOAD</a> -->
